@@ -27,6 +27,7 @@ header{
 
 .img1{
     margin-left: 60px;
+    
 }
 .entrar{
     background-color: #F7F7F7;
@@ -59,4 +60,13 @@ header{
 h1{
     font-size: 70px;
     margin-top: 70px;
+}
+.p1{
+    font-size: 32px;
+    line-height: 1.5;
+}
+
+.grafico{
+    width: 700px;
+    height: 700px;
 }
