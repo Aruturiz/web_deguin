@@ -23,6 +23,13 @@ header{
     font-family:Arial, Helvetica, sans-serif ;
     margin-right: 60px;
     margin-left: 60px;
+    text-decoration: none;
+
+}
+.nave{
+    text-decoration: none;
+    color: #12C8FA;
+    font-size: 23px;
 }
 
 .img1{
@@ -69,4 +76,42 @@ h1{
 .grafico{
     width: 700px;
     height: 700px;
+}
+
+.chance {
+  outline: none;
+  box-shadow: none;
+  border: #d4af37;
+  background-color: #d4af37; 
+  color: white;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-weight:bolder ;
+  font-size: 25px;
+}
+
+.chance:hover,
+.chance:focus,
+.chance:active {
+  outline: none;
+  box-shadow: none;
+}
+
+
+button {
+  outline: none;
+  box-shadow: none;
+}
+button:hover {
+  outline: none;
+  box-shadow: none;
+}
+
+.imagem_homem_apostando{
+    height: 1192px;
+    justify-items: center;
+    align-items: center;
+    background-image: none;
+    
+    
 }
