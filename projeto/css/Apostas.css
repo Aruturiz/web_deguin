@@ -1,0 +1,61 @@
+.grid_para_cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    gap: 60px;
+    padding-top: 40px;
+    font-family: "Inter";
+    justify-items: center;
+    padding-bottom: 40px;
+}
+
+.card2{
+
+    height: 300px;
+    width: 300px ;
+    gap: 30px;
+    align-items: center;
+    justify-items: center;
+    background-color: aliceblue;
+    border-radius: 15px;
+    justify-content:center ;
+    text-align: center;
+}
+
+.divisao{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.material-symbols-outlined.verde{
+    color: green;
+    font-size: 40px;
+}
+.verde{
+    color: green;
+}
+.material-symbols-outlined.vermelho{
+    color: red;
+    font-size: 40px;
+}
+.vermelho{
+    color: red;
+}
+
+button{
+    border: none;
+    background-color: #12C8FA;
+    font-size: 18px;
+    color: aliceblue;
+    border-radius: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+@media (max-width: 768px) {
+ .grid_para_cards{
+    grid-template-columns: 1fr;
+ }
+}

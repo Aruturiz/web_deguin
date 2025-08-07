@@ -1,0 +1,254 @@
+.entrar{
+    background-color: #F7F7F7;
+    border-radius: 5px;
+    color: #556AF8;
+    outline: none;
+    box-shadow: none; 
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+   font-size: 15px;
+   align-items: center;
+   text-align: center;
+   justify-content: center;
+}
+.pesquisa{
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 60px;
+
+font-family: "Inter";
+color:rgb(6, 236, 236);
+font-size: 20px;
+}
+input{
+     width: 500px;
+  padding: 12px;
+  padding-right: 2px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+.vini{
+    display: flex;
+    font-family: "Inter";
+    color: #F7F7F7;
+}
+.nome{
+    font-size: 40px;
+    color: #D5B845;
+}
+.apelido{
+    font-size: 30px;
+}
+.apostas{
+    background-color: #D5B845;
+    color: white;
+    font-family: "Inter";
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.probabilidades{
+    display: flex;
+    padding-left: 40px;
+    font-family: "Inter";
+    color: #F7F7F7;
+}
+.imagem_do_lado{
+    display: flex;
+    align-items: center;
+
+}
+.fundo_azul{
+    background-color: #12C8FA;
+    box-shadow: none;
+    border-color: #12C8FA;
+    border: none;
+    border-radius: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #F7F7F7;
+    font-size: 18px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.section_grafico{
+    font-family: "Inter";
+    color:#F7F7F7
+}
+
+.grafico {
+  display: flex;
+  align-items: flex-end;
+  gap: 95px;
+  height: 300px;
+  width: 100%;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  
+  
+}
+
+.barra {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  width: 50px;
+}
+
+.valor {
+  width: 100%;
+  background-color:#12C8FA;
+ 
+}
+
+.espaçamento{
+    padding-right: 30px;
+}
+
+.rotulo {
+  margin-top: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+.b1 .valor { height: 50px;background-color: #D5B845; }
+.b2 .valor { height: 120px; }
+.b3 .valor { height: 90px;background-color: #D5B845; }
+.b4 .valor { height: 200px; }
+.b5 .valor { height: 160px;background-color: #D5B845; }
+
+@media (max-width: 1024px) {
+  .pesquisa {
+    flex-direction: column;
+    gap: 40px;
+    padding-top: 40px;
+  }
+
+  input {
+    width: 80%;
+  }
+
+  .grafico {
+    gap: 60px;
+    max-width: 90%;
+  }
+
+  .barra {
+    width: 40px;
+  }
+  .vini{
+    flex-direction: column;
+  }
+  .probabilidades{
+    flex-direction: column;
+  }
+  .img_vini_2{
+    width: 400px;
+  }
+}
+
+@media (max-width: 810px) {
+  .pesquisa {
+    gap: 30px;
+    padding-top: 30px;
+  }
+  
+
+  input {
+    width: 90%;
+    font-size: 14px;
+  }
+
+  .grafico {
+    gap: 40px;
+    max-width: 100%;
+  }
+
+  .barra {
+    width: 30px;
+  }
+
+  .nome {
+    font-size: 32px;
+  }
+
+  .apelido {
+    font-size: 22px;
+  }
+
+  .fundo_azul {
+    font-size: 16px;
+    padding: 10px 20px;
+    height: 36px;
+  }
+}
+
+@media (max-width: 480px) {
+  .pesquisa {
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+  }
+  .img_vini_2{
+    width: 200px;
+  }
+
+  .entrar {
+    font-size: 14px;
+    padding: 12px 16px;
+  }
+
+  input {
+    width: 95%;
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .grafico {
+    gap: 25px;
+    padding: 10px;
+  }
+
+  .barra {
+    width: 25px;
+  }
+
+  .rotulo {
+    font-size: 12px;
+  }
+
+  .nome {
+    font-size: 26px;
+  }
+
+  .apelido {
+    font-size: 18px;
+  }
+
+  .probabilidades {
+    flex-direction: column;
+    padding-left: 20px;
+  }
+
+  .fundo_azul {
+    font-size: 14px;
+    padding: 8px 16px;
+    height: 34px;
+  }
+}
+
