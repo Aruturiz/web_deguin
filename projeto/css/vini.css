@@ -8,12 +8,13 @@
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
    font-size: 15px;
    align-items: center;
    text-align: center;
    justify-content: center;
 }
+
 .pesquisa{
     display: flex;
     gap: 80px;
@@ -21,6 +22,7 @@
     justify-content: center;
     text-align: center;
     padding-top: 60px;
+    padding-bottom: 80px;
 
 font-family: "Inter";
 color:rgb(6, 236, 236);
@@ -40,13 +42,59 @@ input{
     display: flex;
     font-family: "Inter";
     color: #F7F7F7;
+   
+}
+#seletor{
+  background-color:#12C8FA;
+  color: #F7F7F7;
+   border: none;
+    border-radius: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.proximo{
+  text-align: center;
+  justify-items: center;
 }
 .nome{
-    font-size: 40px;
+    font-size: 45px;
     color: #D5B845;
 }
 .apelido{
     font-size: 30px;
+}
+.apelido:hover{
+  color: #F7F7F7;
+
+}
+.jogo{
+  display: flex;
+  justify-items: center;
+  gap: 25px;
+  align-items: center;
+  padding-top: 20px;
+}
+.img_logo{
+  height: 60px;
+}
+.nome_time{
+  background-color: #D5B845;
+  color: #F7F7F7;
+  border-radius: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 25px;
+  border: none;
+  font-family: "Inter";
+}
+
+.time{
+  display: flex;
+
 }
 .apostas{
     background-color: #D5B845;
@@ -61,6 +109,7 @@ input{
     padding-left: 40px;
     font-family: "Inter";
     color: #F7F7F7;
+    justify-content: space-between;
 }
 .imagem_do_lado{
     display: flex;
@@ -83,7 +132,8 @@ input{
 
 .section_grafico{
     font-family: "Inter";
-    color:#F7F7F7
+    color:#F7F7F7;
+    justify-items: center;
 }
 
 .grafico {
@@ -91,11 +141,10 @@ input{
   align-items: flex-end;
   gap: 95px;
   height: 300px;
-  width: 100%;
+  width: 80%;
   max-width: 600px;
-  margin: 50px auto;
-  padding: 20px;
-  
+  padding-top: 20px;
+  padding-bottom: 60px;
   
 }
 
@@ -130,7 +179,7 @@ input{
 .b4 .valor { height: 200px; }
 .b5 .valor { height: 160px;background-color: #D5B845; }
 
-@media (max-width: 1024px) {
+@media (max-width: 1090px) {
   .pesquisa {
     flex-direction: column;
     gap: 40px;
@@ -156,7 +205,7 @@ input{
     flex-direction: column;
   }
   .img_vini_2{
-    width: 400px;
+    width: 350px;
   }
 }
 
@@ -203,6 +252,9 @@ input{
     padding-top: 20px;
     padding-bottom: 20px;
     margin-bottom: 30px;
+  }
+  .jogo{
+    flex-direction: column;
   }
   .img_vini_2{
     width: 200px;

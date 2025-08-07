@@ -1,0 +1,5 @@
+.alinhar_nome{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}

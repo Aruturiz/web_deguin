@@ -10,9 +10,13 @@ body {
   padding: 30px;
   background-color: #fff;
   border-radius: 12px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
+.centro{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .h2 {
   text-align: center;
   color: #4356D2;
@@ -37,7 +41,7 @@ input {
 }
 
 .button {
-  width: 100%;
+  width: 60%;
   padding: 14px;
   background-color: #4356D2;
   border: none;
@@ -45,10 +49,18 @@ input {
   color: white;
   font-size: 16px;
   cursor: pointer;
+  margin-top: 10px;
+  text-align: center;
+}
+.button:hover{
+  background-color: #2d3b96;
 }
 
 button:hover {
   background-color: #3546a8;
+}
+footer{
+  padding-top: 43px;
 }
 
 @media (max-width: 600px) {

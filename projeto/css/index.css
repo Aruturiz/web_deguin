@@ -20,12 +20,25 @@ header{
 }
 .nav{
     display: flex;
-    gap: 20px;
+    gap: 40px;
     color:#12C8FA;  
     font-family:Arial, Helvetica, sans-serif ;
     margin-right: 60px;
     margin-left: 60px;
     text-decoration: none;
+    align-items: center;
+
+}
+.input{
+  
+     width: 500px;
+  padding: 12px;
+  padding-right: 2px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
 
 }
 .nave{
@@ -96,11 +109,18 @@ h1{
   background-color: #d4af37; 
   color: white;
   border-radius: 10px;
-  padding: 10px 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
   font-weight:bolder ;
-  font-size: 25px;
+  font-size: 20px;
 }
 
+.chance:hover{
+  background-color: #ac8d27;
+  cursor: pointer;
+}
 
 
 button {
@@ -242,9 +262,9 @@ button:hover {
 }
 
 .senhor_tirando_foto{
-    width: 60px;
-    width: 60px;
-    border-radius: 30px;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
 }
 .alinhamento{
     display: flex;
@@ -292,7 +312,16 @@ a{
 
 }
 
-
+@media (max-width: 1287px){
+.input{
+  width: 250px;
+}
+}
+@media (max-width: 1040px){
+header{
+  flex-direction: column;
+}
+}
 
 @media (max-width: 970px) {
 
@@ -302,6 +331,9 @@ a{
     height: auto;
     padding: 10px;
     gap: 10px; 
+  }
+  .input{
+    width: 200px;
   }
 
   .nav {

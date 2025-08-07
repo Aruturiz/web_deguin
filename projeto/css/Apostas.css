@@ -54,6 +54,11 @@ button{
     padding-bottom: 10px;
 
 }
+
+button:hover{
+    background-color: #1ca8cf;
+    cursor: pointer;
+}
 @media (max-width: 768px) {
  .grid_para_cards{
     grid-template-columns: 1fr;
