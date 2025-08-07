@@ -321,10 +321,22 @@ a{
 .input{
   width: 250px;
 }
+
+
 }
 @media (max-width: 1040px){
 header{
   flex-direction: column;
+  height: 200px;
+  
+  
+}
+.entrar{
+  margin-bottom: 20px;
+}
+
+.nav{
+  padding-bottom: 400px;
 }
 }
 
